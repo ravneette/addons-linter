@@ -121,8 +121,10 @@ export function getVariable(context, name) {
  * a proper l10n solution.
  *
  */
+
 export function gettext(str) {
-  return str;
+  var Jed = new jed({});
+  return Jed.gettext(str);
 }
 
 /*

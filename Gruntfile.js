@@ -39,6 +39,10 @@ module.exports = (grunt) => {
     'webpack:build',
   ]);
 
+  grunt.registerTask('localize', [
+    'webpack:localize',
+  ]);
+
   grunt.registerTask('publish-rules', 'travis rule doc publishing', () => {
     // Require the rules build and copy.
     this.requires(['copy', 'build-rules-html']);

@@ -1,8 +1,9 @@
 import { getConfig } from 'cli';
 import Linter from 'linter';
 import log from 'logger';
+import { gettext as _, sprintf } from 'utils';
 
-
+console.log(_('See https://mzl.la/1ZOhoEN (MDN Docs) for more information.'));
 export function isRunFromCLI(_module = module) {
   return require.main === _module;
 }

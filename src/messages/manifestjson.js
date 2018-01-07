@@ -3,7 +3,6 @@ import { oneLine } from 'common-tags';
 import { gettext as _, sprintf } from 'utils';
 import { MANIFEST_JSON } from 'const';
 
-
 export const MANIFEST_FIELD_REQUIRED = {
   code: 'MANIFEST_FIELD_REQUIRED',
   message: _('The field is required.'),

@@ -4,7 +4,7 @@ import fs from 'fs';
 import webpack from 'webpack';
 
 import { getRules } from './webpack-common';
-import webpackConfig from './webpack.config2';
+import webpackConfig from './webpack.config';
 
 const babelrc = fs.readFileSync('./.babelrc');
 const babelrcObject = JSON.parse(babelrc);
